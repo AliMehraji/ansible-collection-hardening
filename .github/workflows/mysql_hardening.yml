@@ -57,7 +57,7 @@ jobs:
           submodules: true
 
       - name: Set up Python
-        uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38 # v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: 3.12
           cache: 'pip'
@@ -67,7 +67,9 @@ jobs:
         working-directory: ansible_collections/devsec/hardening
 
       - name: Downgrade Ansible for Rocky 8 tests
-        run: pip install "ansible-core<2.17"
+        run: |
+            pip install "ansible-core<2.17"
+            ansible-galaxy collection install 'community.crypto:<3.0.0'
         working-directory: ansible_collections/devsec/hardening
         if: matrix.molecule_distro == 'rocky8'
 
