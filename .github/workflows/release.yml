@@ -13,7 +13,7 @@ jobs:
     if: github.repository == 'dev-sec/ansible-collection-hardening'
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
         with:
           fetch-depth: 0
           ref: master
@@ -63,7 +63,7 @@ jobs:
           path: ./CHANGELOGRELEASE.md
 
       - name: Delete old drafts
-        uses: hugo19941994/delete-draft-releases@1bdca1ea7ffb25ae7f468a7bdb40056dae98175e # v1.0.1
+        uses: hugo19941994/delete-draft-releases@d375ad67d25fed7520a8020c3a6561fff5260c1e # v2.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

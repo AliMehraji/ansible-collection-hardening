@@ -1,5 +1,25 @@
 # Changelog
 
+## [10.4.0](https://github.com/dev-sec/ansible-collection-hardening/tree/10.4.0) (2025-08-13)
+
+[Full Changelog](https://github.com/dev-sec/ansible-collection-hardening/compare/10.3.1...10.4.0)
+
+**Implemented enhancements:**
+
+- Support Debian 13 [\#891](https://github.com/dev-sec/ansible-collection-hardening/issues/891)
+- Support EL10 [\#870](https://github.com/dev-sec/ansible-collection-hardening/issues/870)
+- Add support for current versions of Debian and EL [\#893](https://github.com/dev-sec/ansible-collection-hardening/pull/893) [[mysql_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/mysql_hardening)] [[os_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/os_hardening)] [[ssh_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/ssh_hardening)] [[nginx_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/nginx_hardening)] ([schurzi](https://github.com/schurzi))
+- Add SSH config for EL/AlmaLinux 10 [\#888](https://github.com/dev-sec/ansible-collection-hardening/pull/888) [[ssh_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/ssh_hardening)] ([jonathanspw](https://github.com/jonathanspw))
+
+**Merged pull requests:**
+
+- chore\(deps\): update actions/checkout action to v5 [\#895](https://github.com/dev-sec/ansible-collection-hardening/pull/895) [[mysql_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/mysql_hardening)] [[os_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/os_hardening)] [[ssh_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/ssh_hardening)] [[nginx_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/nginx_hardening)] ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency python to 3.13 [\#892](https://github.com/dev-sec/ansible-collection-hardening/pull/892) [[mysql_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/mysql_hardening)] [[os_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/os_hardening)] [[ssh_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/ssh_hardening)] [[nginx_hardening](https://github.com/dev-sec/ansible-collection-hardening/labels/nginx_hardening)] ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency aar-doc to v2.3.0 [\#890](https://github.com/dev-sec/ansible-collection-hardening/pull/890) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update ansible/ansible-lint digest to 9765b87 [\#889](https://github.com/dev-sec/ansible-collection-hardening/pull/889) ([renovate[bot]](https://github.com/apps/renovate))
+- Improve OS support accuracy [\#887](https://github.com/dev-sec/ansible-collection-hardening/pull/887) ([jonathanspw](https://github.com/jonathanspw))
+- chore\(deps\): update hugo19941994/delete-draft-releases action to v2 [\#885](https://github.com/dev-sec/ansible-collection-hardening/pull/885) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [10.3.1](https://github.com/dev-sec/ansible-collection-hardening/tree/10.3.1) (2025-07-24)
 
 [Full Changelog](https://github.com/dev-sec/ansible-collection-hardening/compare/10.3.0...10.3.1)
